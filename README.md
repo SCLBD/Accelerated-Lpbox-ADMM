@@ -3,7 +3,7 @@ This is the implementation for the paper "Learning to Accelerate Approximate Met
 
 ## Overview 
 
-- In this work, we aim to acclerate the lp-Box ADMM method, which is an approximate method and versatile framework for solving Integer Programming (IP) problems. 
+- In this work, we aim to accelerate the lp-Box ADMM method, which is an approximate method and versatile framework for solving Integer Programming (IP) problems. 
 - We propose Early Fixing framework to accelerate the lp-Box ADMM method. 
 - We formulate the whole early fixing process as a Markov decision process, and train it using imitation learning.
 - Extensive experiments on our proposed early fixing framework are conducted to three different IP applications: constrained linear programming, image segmentation and sparse adversarial attack. The experiments reveal the competitiveness of our early fixing framework: the runtime speeds up significantly, while the solution quality does not degrade much. 
