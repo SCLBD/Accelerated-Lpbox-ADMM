@@ -1,5 +1,5 @@
 # Learning to Accelerate Approximate Methods for Solving Integer Programming via Early Fixing
-This is the implementation for the paper "Learning to Accelerate Approximate Methods for Solving Integer Programming via Early Fixing". This work can significantly accelerate the general Integer Programming (IP) algorithm: [Lp-Box ADMM](https://ieeexplore.ieee.org/abstract/document/8378001). 
+This is the implementation for the paper "Learning to Accelerate Approximate Methods for Solving Integer Programming via Early Fixing". Our work can significantly accelerate the general Integer Programming (IP) algorithm [Lp-Box ADMM](https://ieeexplore.ieee.org/abstract/document/8378001), through learning to early fix some variables during the optimization process. 
 
 ## Overview 
 
