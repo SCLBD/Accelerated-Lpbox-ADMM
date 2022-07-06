@@ -1,5 +1,5 @@
 # Learning to Accelerate Approximate Methods for Solving Integer Programming via Early Fixing
-This is the implementation for the paper "Learning to Accelerate Approximate Methods for Solving Integer Programming via Early Fixing". Our work can significantly accelerate the general Integer Programming (IP) algorithm [Lp-Box ADMM](https://ieeexplore.ieee.org/abstract/document/8378001), through learning to early fix some variables during the optimization process. 
+This is the implementation for the paper "[Learning to Accelerate Approximate Methods for Solving Integer Programming via Early Fixing](SCLBD/Accelerated-Lpbox-ADMM)". Our work can significantly accelerate the general Integer Programming (IP) algorithm [Lp-Box ADMM](https://ieeexplore.ieee.org/abstract/document/8378001), through learning to early fix some variables during the optimization process. 
 
 ## Overview 
 
@@ -138,14 +138,20 @@ We thank the following papers and source codes for giving us the inspirations an
  
 If you found these libraries useful in your research, please consider citing:
 ```sh
-@article{wu2018ell,
+@article{learn2accelerate,
+  title={Learning to Accelerate Approximate Methods for Solving Integer Programming via Early Fixing},
+  author={Li, Longkang and Wu, Baoyuan},
+  journal={arXiv preprint arXiv:2207.02087},
+  year={2022}
+}
+@article{wu2019lpbox,
   title={Lp-Box ADMM: A Versatile Framework for Integer Programming},
   author={Wu, Baoyuan and Ghanem, Bernard},
   journal={IEEE transactions on pattern analysis and machine intelligence},
   volume={41},
   number={7},
   pages={1695--1708},
-  year={2018},
+  year={2019},
   publisher={IEEE}
 }
 @inproceedings{chen2020learning,
